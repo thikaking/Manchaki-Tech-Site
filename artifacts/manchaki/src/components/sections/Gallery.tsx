@@ -4,18 +4,14 @@ import { X, ZoomIn, ChevronLeft, ChevronRight } from "lucide-react";
 import gallery1 from "@assets/gallery_images/image1.png";
 import gallery2 from "@assets/gallery_images/image2.png";
 import gallery3 from "@assets/gallery_images/image3.png";
-import gallery4 from "@assets/gallery_images/image4.png";
-import gallery5 from "@assets/gallery_images/image5.png";
 
 const GALLERY_ITEMS = [
   { src: gallery1, alt: "Driving lesson — instructor guiding learner inside vehicle", category: "Driving Lessons" },
   { src: gallery2, alt: "Theory training classroom session at Manchaki", category: "Theory Training" },
   { src: gallery3, alt: "Road signs learning materials and Highway Code", category: "Road Signs" },
-  { src: gallery4, alt: "Practical simulation and road layout training", category: "Practical" },
-  { src: gallery5, alt: "Students at Manchaki driving school training facility", category: "Driving Lessons" },
 ];
 
-const CATEGORIES = ["All", "Driving Lessons", "Theory Training", "Road Signs", "Practical"];
+const CATEGORIES = ["All", "Driving Lessons", "Theory Training", "Road Signs"];
 
 export default function Gallery() {
   const [activeFilter, setActiveFilter] = useState("All");
