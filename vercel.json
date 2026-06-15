@@ -1,4 +1,0 @@
-{
-  "buildCommand": "cd artifacts/manchaki && npm install && npx vite build",
-  "outputDirectory": "artifacts/manchaki/"
-}
