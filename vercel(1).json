@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd artifacts/manchaki && npm run build",
+  "outputDirectory": "artifacts/manchaki/dist",
+  "framework": "vite"
+}
