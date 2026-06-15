@@ -65,6 +65,17 @@ CREATE INDEX IF NOT EXISTS idx_contact_messages_created_at ON public.contact_mes
 ALTER TABLE public.registrations ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.contact_messages ENABLE ROW LEVEL SECURITY;
 
+-- Drop existing policies first to allow re-runs
+DROP POLICY IF EXISTS "Public can create registrations" ON public.registrations;
+DROP POLICY IF EXISTS "Admins can view registrations" ON public.registrations;
+DROP POLICY IF EXISTS "Admins can update registrations" ON public.registrations;
+DROP POLICY IF EXISTS "Admins can delete registrations" ON public.registrations;
+
+DROP POLICY IF EXISTS "Public can create contact messages" ON public.contact_messages;
+DROP POLICY IF EXISTS "Admins can view contact messages" ON public.contact_messages;
+DROP POLICY IF EXISTS "Admins can update contact messages" ON public.contact_messages;
+DROP POLICY IF EXISTS "Admins can delete contact messages" ON public.contact_messages;
+
 -- =====================================================
 -- 4. RLS POLICIES - REGISTRATIONS
 -- =====================================================
@@ -73,7 +84,7 @@ ALTER TABLE public.contact_messages ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Public can create registrations"
   ON public.registrations
   FOR INSERT
-  TO anon
+  TO anon, public
   WITH CHECK (true);
 
 -- Only authenticated admins can SELECT registrations
@@ -106,7 +117,7 @@ CREATE POLICY "Admins can delete registrations"
 CREATE POLICY "Public can create contact messages"
   ON public.contact_messages
   FOR INSERT
-  TO anon
+  TO anon, public
   WITH CHECK (true);
 
 -- Only authenticated admins can SELECT contact messages

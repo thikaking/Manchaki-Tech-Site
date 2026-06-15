@@ -1,0 +1,34 @@
+{
+  "name": "Manchaki Technical Training Institute and Driving School",
+  "short_name": "Manchaki",
+  "description": "NTSA-approved driving school in Muguga and Thika, Kenya. Professional driver training for all vehicle categories.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#005BBB",
+  "orientation": "portrait-primary",
+  "categories": ["education", "driving school", "training"],
+  "lang": "en-KE",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

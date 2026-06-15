@@ -1,0 +1,547 @@
+# BUILD A PREMIUM WEBSITE FOR MANCHAKI TECHNICAL TRAINING INSTITUTE AND DRIVING SCHOOL
+
+Create a world-class, highly professional, modern, elegant, trustworthy, visually impressive, premium-looking website for:
+
+# MANCHAKI TECHNICAL TRAINING INSTITUTE AND DRIVING SCHOOL
+
+Tagline:
+**"Awaken Your Brilliance"**
+
+The institution's official name remains **Manchaki Technical Training Institute and Driving School**, but the website should focus primarily on **Driving School Services, Driver Training, Road Safety, Licensing, and NTSA-Approved Driving Education**.
+
+The website should immediately communicate:
+
+* Excellence
+* Trust
+* Safety
+* Professionalism
+* Success
+* Road Safety
+* Driving Excellence
+* Student Achievement
+* NTSA Compliance
+
+The design should be significantly better than most driving school websites in Kenya and comparable to premium international driving academies.
+
+The website should feel luxurious, modern, spacious, polished, conversion-focused, and trustworthy.
+
+---
+
+# BRAND COLORS
+
+Primary:
+#005BBB
+
+Secondary:
+#0B2447
+
+Accent:
+#F7B500
+
+Background:
+#FFFFFF
+
+Light Background:
+#F8FAFC
+
+Text:
+#1E293B
+
+Use:
+
+* Premium gradients
+* Glassmorphism effects
+* Soft shadows
+* Modern typography
+* Smooth scrolling
+* Hover effects
+* Elegant transitions
+* Professional spacing
+
+---
+
+# WEBSITE INFORMATION
+
+Institution Name:
+Manchaki Technical Training Institute and Driving School
+
+Tagline:
+Awaken Your Brilliance
+
+Website:
+[www.Manchaki.com](http://www.Manchaki.com)
+
+Email:
+[info@manchaki.ac.ke](mailto:info@manchaki.ac.ke)
+
+Phone Numbers:
+0729 157 111
+0729 088 455
+
+Status:
+NTSA Approved Driving School
+
+---
+
+# SEO REQUIREMENTS
+
+Implement advanced SEO best practices.
+
+Include:
+
+* Semantic HTML5
+* Meta Titles
+* Meta Descriptions
+* Open Graph Tags
+* Twitter Cards
+* Canonical URLs
+* Sitemap.xml
+* Robots.txt
+* JSON-LD Structured Data
+* Local Business Schema
+* Driving School Schema
+* Educational Organization Schema
+* Optimized Heading Structure
+* Internal Linking
+* Lazy Loading
+* Accessibility Optimization
+* Image Optimization
+
+Target Keywords:
+
+* Driving School in Muguga
+* Driving School in Thika
+* NTSA Approved Driving School
+* Driving Lessons Kenya
+* Driving Classes in Muguga
+* Driving Classes in Thika
+* Motorcycle Training Kenya
+* Learn Driving in Kenya
+* Truck Driving School Kenya
+* PSV Driving School Kenya
+* Professional Driver Training Kenya
+
+Target Google PageSpeed:
+90+
+
+---
+
+# IMAGE REQUIREMENTS
+
+IMPORTANT:
+
+DO NOT USE THE BROCHURE IMAGES.
+
+Use the provided Manchaki vehicle category images for all driving category cards.
+
+Use professional royalty-free driving-school images only where no Manchaki assets exist.
+
+Vehicle Categories must use the provided Manchaki images.
+
+Map images as follows:
+
+* Category A1/A2 → Motorcycle Training Images
+* Category A3 → Tuk Tuk Image
+* Category B1/B2 → Suzuki Swift and Toyota Axio Images
+* Category C1 → Light Truck Image
+* Category C → Medium Truck Image
+* Category D1 → Van Image
+* Category D2/D3 → Bus/Minibus Image
+
+Hero Section Image:
+
+Use a premium realistic image showing:
+
+* African driving instructor
+* African learner
+* Right-hand-drive vehicle
+* Kenyan road environment
+* Professional driving lesson
+
+The image should look realistic and high-end.
+
+---
+
+# NAVIGATION MENU
+
+Home
+
+About Us
+
+Driving Courses
+
+Fees
+
+Gallery
+
+FAQ
+
+Register
+
+Contact
+
+---
+
+# HOME PAGE
+
+Create a premium hero section.
+
+Headline:
+
+Kenya's Trusted NTSA Approved Driving School
+
+Subheadline:
+
+Gain practical driving skills and professional driver training from experienced instructors committed to your success and road safety.
+
+Buttons:
+
+1. Enroll Now
+
+   * Smooth scroll directly to Online Registration section.
+
+2. Contact Us
+
+   * Smooth scroll directly to Contact section.
+
+Display:
+
+* NTSA Approved Badge
+* Student Success Statistics
+* Professional Hero Image
+* Trust Indicators
+* Animated Statistics
+
+---
+
+# ABOUT US
+
+Include:
+
+* Institution Overview
+* Mission
+* Vision
+* Core Values
+
+Create a premium timeline section.
+
+Use professional driving-school imagery.
+
+---
+
+# WHY CHOOSE US
+
+Create elegant feature cards.
+
+Features:
+
+* NTSA Approved
+* Experienced Instructors
+* Modern Training Vehicles
+* Practical Training
+* Flexible Learning Schedule
+* Affordable Fees
+* Road Safety Focus
+* Personalized Driving Instruction
+* Student Support
+
+---
+
+# DRIVING CATEGORIES
+
+Create premium course cards.
+
+Category A1
+New Rider
+
+Category A2
+Motorcycle Rider
+
+Category A3
+Tuk Tuk
+
+Category B1
+Light Vehicle Manual
+
+Category B2
+Light Vehicle Automatic
+
+Category C1
+Light Truck
+
+Category D1
+Van
+
+Category D2
+Minibus
+
+Category D3
+Bus
+
+Each card should contain:
+
+* Assigned Manchaki vehicle image
+* Description
+* Key learning outcomes
+* Learn More button
+
+---
+
+# FEES SECTION
+
+Display in premium pricing cards.
+
+Motorcycle Theory:
+KES 3,000
+
+Unlicensed Drivers Theory:
+KES 7,000
+
+Half Course (20 Lessons):
+KES 11,000
+
+Full Course (30 Lessons):
+KES 15,000
+
+NTSA Charges:
+
+PDL:
+KES 650
+
+Test Booking:
+KES 1,050
+
+Interim:
+KES 750
+
+Add clear call-to-action buttons.
+
+---
+
+# ROAD SAFETY COMMITMENT
+
+Create a professional section highlighting:
+
+* Defensive Driving
+* Highway Safety
+* Urban Driving Skills
+* Traffic Rule Compliance
+* Responsible Driving Habits
+* NTSA Standards
+
+Use premium driving-related imagery.
+
+---
+
+# OUR TRAINING PROCESS
+
+Create a visually impressive step-by-step section.
+
+Step 1:
+Registration
+
+Step 2:
+Theory Lessons
+
+Step 3:
+Practical Driving Lessons
+
+Step 4:
+NTSA Test Preparation
+
+Step 5:
+Licensing
+
+Use icons and connecting animations.
+
+---
+
+# GALLERY
+
+Show only authentic Manchaki learning and training images.
+
+Use the images provided in the Manchaki Gallery assets.
+
+Do NOT replace them with stock photography.
+
+Gallery Categories:
+
+### Driving Lessons
+
+* Instructor teaching learner inside vehicle
+* Practical driving sessions
+
+### Theory Training
+
+* Classroom learning
+* Driving concepts
+* NTSA requirements
+
+### Road Signs & Traffic Rules
+
+* Road sign learning materials
+* Highway code training
+
+### Practical Simulations
+
+* Traffic simulation boards
+* Road layout exercises
+* Junction simulations
+* Parking simulations
+
+Gallery Requirements:
+
+* Modern masonry layout
+* Lightbox viewer
+* Smooth hover effects
+* Mobile responsive
+* Lazy loading
+* Optimized images
+
+Mandatory Asset Rule:
+
+Use only the provided Manchaki Gallery images for this section.
+
+The gallery must represent actual learning activities conducted by the institution.
+
+---
+
+# FAQ SECTION
+
+Include:
+
+* How do I register?
+* What documents are required?
+* How long does training take?
+* What are the fees?
+* How do I book my NTSA test?
+* Do you offer motorcycle training?
+* Do you offer automatic vehicle training?
+* Which branch should I choose?
+
+Use an elegant accordion design.
+
+---
+
+# ONLINE REGISTRATION
+
+When users click ENROLL NOW they should automatically scroll here.
+
+Form Fields:
+
+* Full Name
+* National ID Number
+* Phone Number
+* Email Address
+* Preferred Course
+* Preferred Branch
+* Preferred Start Date
+* Message
+
+Add:
+
+* Validation
+* Success message
+* Professional design
+
+---
+
+# CONTACT SECTION
+
+When users click CONTACT US they should automatically scroll here.
+
+Display both branches professionally.
+
+## MUGUGA BRANCH
+
+Location:
+Muguga Along Garissa Road
+
+Embed Google Map showing Muguga Town.
+
+Include:
+
+* Get Directions Button
+* Open in Google Maps Button
+
+---
+
+## THIKA BRANCH
+
+Location:
+
+Neema Plaza
+Third Floor
+Room 41
+Thika Town
+
+Coordinates:
+
+1°02'23.9"S 37°04'19.6"E
+
+Embed Google Map centered on these coordinates.
+
+Include:
+
+* Get Directions Button
+* Open in Google Maps Button
+
+---
+
+# CONTACT DETAILS
+
+Phone:
+0729 157 111
+
+Phone:
+0729 088 455
+
+Email:
+[info@manchaki.ac.ke](mailto:info@manchaki.ac.ke)
+
+Website:
+[www.Manchaki.com](http://www.Manchaki.com)
+
+---
+
+# EXTRA PREMIUM FEATURES
+
+Include ONLY:
+
+* Floating WhatsApp Button
+* Dark Mode Toggle
+* Scroll To Top Button
+* Animated Statistics
+* Road Safety Tips Section
+* Search Functionality
+* Course Filtering
+* Modern Footer
+* Social Media Links
+* Loading Animations
+* Micro Interactions
+* Smooth Page Transitions
+
+---
+
+# PERFORMANCE REQUIREMENTS
+
+* Mobile First
+* Fully Responsive
+* SEO Optimized
+* Accessibility Compliant
+* Fast Loading
+* Production Ready
+* Clean Code Structure
+* Optimized Images
+* Modern UI/UX
+* High Conversion Design
+
+---
+
+# FINAL GOAL
+
+Create a website that immediately feels premium, luxurious, trustworthy, modern, educational, and highly professional.
+
+The visitor should instantly believe that Manchaki Technical Training Institute and Driving School is one of the leading NTSA-approved driving schools in Kenya.
+
+The website should look expensive, polished, visually impressive, and capable of competing with the best driving school websites in East Africa.

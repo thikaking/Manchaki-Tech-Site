@@ -129,10 +129,13 @@ export default function Registration() {
               className="text-2xl font-bold text-white mb-2"
               style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
             >
-              Registration Received!
+              Registration Submitted Successfully!
             </h3>
             <p className="text-white/70 text-base mb-6">
-              Thank you! Our team will contact you within 24 hours to confirm your enrollment and answer any questions.
+              Thank you for choosing Manchaki Driving School.
+            </p>
+            <p className="text-white/70 text-base mb-6">
+              Our admissions team will contact you shortly.
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <a
@@ -277,7 +280,15 @@ export default function Registration() {
                           </FormControl>
                           <SelectContent>
                             <SelectItem value="motorcycle-theory">Motorcycle Theory (KES 3,000)</SelectItem>
-                            <SelectItem value="unlicensed-theory">Unlicensed Drivers Theory (KES 7,000)</SelectItem>
+                            <SelectItem value="category-a1">Category A1 — Motorcycle (New Rider)</SelectItem>
+                            <SelectItem value="category-a2">Category A2 — Motorcycle (Advanced Rider)</SelectItem>
+                            <SelectItem value="category-a3">Category A3 — Tuk Tuk (Three Wheeler)</SelectItem>
+                            <SelectItem value="category-b1">Category B1 — Light Vehicle Manual</SelectItem>
+                            <SelectItem value="category-b2">Category B2 — Light Vehicle Automatic</SelectItem>
+                            <SelectItem value="category-c1">Category C1 — Light Truck</SelectItem>
+                            <SelectItem value="category-d1">Category D1 — Van</SelectItem>
+                            <SelectItem value="category-d2">Category D2 — Minibus</SelectItem>
+                            <SelectItem value="category-d3">Category D3 — Bus</SelectItem>
                             <SelectItem value="half-course">Half Course — 20 Lessons (KES 11,000)</SelectItem>
                             <SelectItem value="full-course">Full Course — 30 Lessons (KES 15,000)</SelectItem>
                           </SelectContent>

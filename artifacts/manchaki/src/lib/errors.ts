@@ -22,6 +22,16 @@ const ERROR_MESSAGES: Record<string, string> = {
     "Something went wrong. Please try again later.",
   DATABASE_ERROR:
     "We couldn't save your information. Please try again.",
+  DATABASE_CONNECTION_FAILED:
+    "Database connection failed. Please try again later or contact support.",
+  SUPABASE_CONFIGURATION_MISSING:
+    "Supabase configuration missing. Please contact the website administrator.",
+  PERMISSION_DENIED:
+    "Permission denied. You do not have access to perform this action.",
+  REQUIRED_FIELDS_MISSING:
+    "Required fields missing. Please fill in all required fields.",
+  REGISTRATION_TABLE_NOT_FOUND:
+    "Registration table not found. Please contact the website administrator.",
   INVALID_EMAIL:
     "Please enter a valid email address.",
   INVALID_PHONE:
@@ -95,23 +105,43 @@ export function getUserFriendlyErrorMessage(error: unknown): string {
   }
 
   if (error instanceof Error) {
+    const msg = error.message;
+
     // Handle specific error types
-    if (error.message.includes("Failed to fetch") || error.message.includes("NetworkError")) {
-      return ERROR_MESSAGES.NETWORK_ERROR;
+    if (msg.includes("Failed to fetch") || msg.includes("NetworkError") || msg.includes("fetch is not defined")) {
+      return "Database connection failed. Please check your internet connection and try again.";
     }
-    if (error.message.includes("timeout") || error.message.includes("Timeout")) {
-      return ERROR_MESSAGES.NETWORK_ERROR;
+    if (msg.includes("timeout") || msg.includes("Timeout")) {
+      return "Database connection failed. The server took too long to respond. Please try again.";
     }
-    if (error.message.includes("429") || error.message.includes("Too Many Requests")) {
+    if (msg.includes("429") || msg.includes("Too Many Requests")) {
       return ERROR_MESSAGES.RATE_LIMIT;
     }
-    if (error.message.includes("duplicate") || error.message.includes("Unique constraint")) {
+    if (msg.includes("duplicate") || msg.includes("Unique constraint") || msg.includes("23505")) {
       return ERROR_MESSAGES.DUPLICATE_SUBMISSION;
     }
 
     // Supabase specific errors
-    if (error.message.includes("violates row-level security")) {
-      return ERROR_MESSAGES.DATABASE_ERROR;
+    if (msg.includes("violates row-level security") || msg.includes("permission denied") || msg.includes("42501")) {
+      return "Permission denied. The registration table exists but the RLS insert policy is missing. Please run the SQL migration in Supabase Dashboard → SQL Editor.";
+    }
+    if (msg.includes("relation") && (msg.includes("does not exist") || msg.includes("registrations"))) {
+      return "Registration table not found. Please contact the website administrator.";
+    }
+    if (msg.includes("column") && msg.includes("does not exist")) {
+      return "Registration table not found. Please contact the website administrator.";
+    }
+    if (msg.includes("connect") && msg.includes("ECONNREFUSED")) {
+      return "Database connection failed. Could not reach the server. Please try again later.";
+    }
+    if (msg.includes("42P01") || msg.includes("table") && msg.includes("not found")) {
+      return "Registration table not found. Please contact the website administrator.";
+    }
+    if (msg.includes("JWT") || msg.includes("invalid api key") || msg.includes("401")) {
+      return "Supabase configuration missing. Please contact the website administrator.";
+    }
+    if (msg.includes("400") || msg.includes("bad request")) {
+      return "Required fields missing. Please check your input and try again.";
     }
   }
 

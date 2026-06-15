@@ -1,0 +1,317 @@
+# MANCHAKI WEBSITE INTEGRATION TEST SUITE
+
+Perform a complete end-to-end integration audit of the website.
+
+Test every feature, page, section, interaction, animation, form, filter, navigation element, responsive breakpoint, and SEO implementation.
+
+Generate a detailed report showing:
+
+PASS ✅
+WARNING ⚠️
+FAIL ❌
+
+for every test.
+
+---
+
+## NAVIGATION TESTS
+
+Verify:
+
+* Home menu works
+* About Us menu works
+* Driving Courses menu works
+* Fees menu works
+* Gallery menu works
+* FAQ menu works
+* Register menu works
+* Contact menu works
+
+Check:
+
+* Smooth scrolling works
+* No broken links
+* No dead anchors
+* No console errors
+
+---
+
+## BUTTON TESTS
+
+Verify:
+
+Enroll Now Button
+
+Expected:
+
+* Scrolls directly to Online Registration section
+
+Contact Us Button
+
+Expected:
+
+* Scrolls directly to Contact section
+
+Get Directions Buttons
+
+Expected:
+
+* Open correct Google Maps locations
+
+Open in Google Maps Buttons
+
+Expected:
+
+* Open Google Maps correctly
+
+WhatsApp Button
+
+Expected:
+
+* Opens WhatsApp with correct phone number
+
+---
+
+## ONLINE REGISTRATION TESTS
+
+Verify:
+
+Required field validation
+
+Test:
+
+* Empty form submission
+* Invalid email
+* Missing phone number
+* Missing ID number
+* Invalid course selection
+
+Verify:
+
+* Validation messages display correctly
+* Success message appears
+* Form does not crash
+
+---
+
+## COURSE FILTER TESTS
+
+Verify:
+
+Filter by category
+
+Categories:
+
+* A1
+* A2
+* A3
+* B1
+* B2
+* C1
+* D1
+* D2
+* D3
+
+Expected:
+
+* Correct cards appear
+* Incorrect cards hidden
+* No UI breaking
+
+---
+
+## SEARCH FUNCTIONALITY TESTS
+
+Search:
+
+* A1
+* Motorcycle
+* Automatic
+* Truck
+* Bus
+* NTSA
+
+Verify:
+
+* Accurate results
+* No errors
+* Empty state handled correctly
+
+---
+
+## FAQ TESTS
+
+Verify:
+
+* Accordion expands
+* Accordion collapses
+* Multiple clicks handled correctly
+* Mobile functionality works
+
+---
+
+## GALLERY TESTS
+
+Verify:
+
+* All Manchaki images load
+* Lightbox opens
+* Lightbox closes
+* Image navigation works
+* Lazy loading works
+* No broken images
+
+---
+
+## MAP TESTS
+
+Verify Muguga Branch Map
+
+Expected:
+
+* Correct Muguga location displayed
+
+Verify Thika Branch Map
+
+Expected:
+
+Coordinates:
+
+1°02'23.9"S 37°04'19.6"E
+
+Correct pin placement.
+
+Verify:
+
+* Maps render on desktop
+* Maps render on tablet
+* Maps render on mobile
+
+---
+
+## RESPONSIVE TESTING
+
+Test:
+
+320px
+375px
+414px
+768px
+1024px
+1280px
+1440px
+1920px
+
+Verify:
+
+* No overlapping elements
+* No horizontal scrolling
+* Images scale correctly
+* Navigation works
+* Forms remain usable
+
+---
+
+## DARK MODE TESTS
+
+Verify:
+
+* Toggle works
+* Theme persists after refresh
+* Contrast remains accessible
+* Images remain visible
+
+---
+
+## ANIMATION TESTS
+
+Verify:
+
+* Scroll animations trigger correctly
+* Hover effects work
+* Statistics animate properly
+* No animation lag
+* No flickering
+
+---
+
+## ACCESSIBILITY TESTS
+
+Verify:
+
+* Keyboard navigation
+* Focus indicators
+* Alt text present
+* Form labels present
+* Color contrast compliance
+
+Target WCAG AA.
+
+---
+
+## SEO TESTS
+
+Verify:
+
+* Meta title exists
+* Meta description exists
+* Open Graph tags exist
+* Twitter tags exist
+* Canonical URL exists
+* Structured Data exists
+* Robots.txt exists
+* Sitemap.xml exists
+
+Check:
+
+* Heading hierarchy
+* Internal links
+* Image alt attributes
+
+---
+
+## PERFORMANCE TESTS
+
+Target:
+
+Performance Score > 90
+
+Accessibility > 90
+
+Best Practices > 90
+
+SEO > 95
+
+Verify:
+
+* Lazy loading
+* Image optimization
+* JS bundle optimization
+* CSS optimization
+
+---
+
+## SECURITY TESTS
+
+Verify:
+
+* Form sanitization
+* XSS protection
+* Input validation
+* Safe external links
+
+---
+
+## FINAL AUDIT
+
+Produce:
+
+1. Integration Test Report
+2. Accessibility Report
+3. SEO Report
+4. Performance Report
+5. Security Report
+
+Then automatically fix every issue found and rerun the tests until:
+
+All critical tests pass.
