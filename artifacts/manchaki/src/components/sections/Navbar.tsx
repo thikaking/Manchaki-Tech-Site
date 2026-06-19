@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
-import logo from "../../assets/Screenshot_2026-06-11_135143_1781359008561.png";
+import logo from "@assets/Screenshot_2026-06-11_135143_1781359008561.png";
 
 const NAV_LINKS = [
   { label: "Home", href: "#home" },
